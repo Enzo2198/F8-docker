@@ -6,7 +6,7 @@ services:
     volumes:
       - './api:/app/api'
     env_file:
-      - .evn
+      - .env
     ports:
       - '3000:3000'
     depends_on:

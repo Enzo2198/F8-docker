@@ -2,7 +2,7 @@ import {Column, Entity} from "typeorm";
 import {BaseEntity} from "@/modules/base/entities";
 
 @Entity('Classes')
-export class ClassesEntity extends BaseEntity{
+export class ClassEntity extends BaseEntity{
   @Column({
     nullable: true,
   })
